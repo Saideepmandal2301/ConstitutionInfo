@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get_more_info</title>
+</head>
+<body>
+
+    <script>
+
+        alert('Welcome')
+        alert('To get best experience must view contents on desktop or hold your android or ios in landscape orientation')   
+
+    </script>
+
+    <style>
+
+        *{  margin: 0; padding: 0;}
+
+        header{
+
+            /*background-image: linear-gradient(orange, white, green);*/
+            color: white;
+            background-size: cover;
+            width: auto;
+            height: 100vh;
+            /* border: 3px solid black; */
+            font-family: cursive;
+            font-weight: 400;
+            /*text-shadow: 1px 1px 2px black;*/
+
+        }
+
+        .bg_change{
+
+        	animation: background_change 15s linear infinite;
+
+        }
+
+        @keyframes background_change{
+
+            0%{ background-image: linear-gradient(orange, white, green );color: black;}
+        	20%{ background-image: url('host images/Victoria\ memorial.jpg');color: black; }
+        	40%{ background-image: url('host images/Gateway\ of\ India.jpg');}
+        	60%{ background-image: url('host images/Charminar.jpg');color: white;}
+        	80%{ background-image: url('host images/Tajmahal.jpg');color: black;}
+        	100%{ background-image: url('host images/India\ gate.jpg');}
+
+        }
+        .color_change{
+            animation: color_alag 10s linear infinite;
+        }
+
+        @keyframes color_alag{
+            0%{ color: orange;}
+            50%{ color: white;}
+            10%{ color: green;}
+        }
+
+        .leftside{
+
+            margin-top: 8px;
+            /*margin-left: 8px;*/
+
+        }
+        p{
+
+            margin-top: 10px;
+            margin-left: 8px;
+
+        }
+        
+        #top{
+            margin-top: 10px;
+        }
+
+        #know{
+
+            margin-top: 4px;
+            margin-bottom: 8px;
+
+        }
+
+        #list{
+            margin-left: 30px;
+            margin-top: 10px; 
+        }
+
+        #btn1{
+
+            padding: 0.10px 5px;
+            background-color: black;
+            text-decoration: none;
+            color: white;
+            border-color: 3px solid white;
+            /*text-shadow: 1px 1px 3px black;*/
+            animation: bghoga 1s linear infinite;
+            border-radius: 9px;
+        }
+
+        @keyframes bghoga{
+
+            0%{ background-color: orange; color: black; }
+            50%{ background-color: white; color: black; }
+            100%{ background-color: green; color: white; }
+
+        }
+
+        .button{
+
+            /*margin: in-left: 900px;*/
+            margin-right: 25px;
+            line-height: 150px;
+
+        }
+        main{
+
+            display: flex;
+            justify-content: space-between;
+
+        }
+
+    </style>
+
+    <header class="bg_change">
+        <h2><marquee behavior="alternate" direction="" id="top"><span class="color_change">The making of the Constitution of India was completed on 26 November, 1949.</span></marquee></h2>
+        <P>
+
+            Constitution means a set of fundamental principles, basic rules and established precedents (means standards/instances). It identifies, defines and regulates various aspects of the State and the structure, powers and functions of the major institutions under the three organs of the Government – the executive, the legislature and the judiciary. It also provides for rights and freedoms of citizens and spells out the relationships between individual citizen and the State and government.
+            A Constitution may be written or unwritten, but it contains fundamental laws of the land. It is the supreme and ultimate authority. Any decision or action which is not in accordance with it will be unconstitutional and unlawful. A Constitution also lays down limits on the power of the government to avoid abuse of authority. Moreover, it is not a static but a living document, because it needs to be amended as and when required to keep it updated. Its flexibility enables it to change according to changing aspirations of the people, the needs of the time and the changes taking place in society. <br></P>
+            <p id="know">
+<b><u>Do you know?</u></b><br> Unlike the Constitutions of most of the democratic countries, the British Constitution is known as unwritten constitution, because it is largely unwritten and uncodified. It was not framed as a complete statement like the Constitution of USA or the Indian Constitution. The Constitution of USA and the Indian Constitution are written constitutions. 
+            
+</p>
+
+<main>
+    
+        <p class="leftside">
+
+            <b><u>Our Constitution ensures Equality for each and every citizen and 
+It also includes:</u></b><br>We often talk about rights, but do you know what does the term ‘rights’ mean?<br> Rights are rules of interaction between people. They place constraints and <br>obligations upon the actions of the state and individuals or groups. <br> For example, if one has a right to life, this means that others do not have <br>the liberty to kill him or her. Rights are defined as claims of an individual that<br> are essential for the development of his or her own self and that are recognized<br> by society or State. These are legal, social, or ethical principles of freedom<br> or entitlement and are the fundamental normative rules about what is allowed to<br> people or owed to people, according to some legal system, social convention, or<br> ethical theory. Rights are often considered fundamental to civilization, being<br> regarded as established pillars of society and culture.
+    <div id="list">
+            <ul><b>
+<!-- <div id="list"> -->
+                <li>Sovereignty</li>
+                <li>Socialism</li>
+                <li>Secularism</li>
+                <li>Democracy</li>
+                <li>Republic</li>
+                <li>Justice</li>
+                <li>Liberty</li>
+                <li>Equality</li>
+                <li>Fraternity</li>
+                <li>Dignity of the individual</li>
+                <li>Unity and integrity of the Nation</li>
+                <li>International peace and a just international order</li>
+                <li>Fundamental Duties</li>
+
+            </div>
+            </div>
+            </ul>
+        </b>
+        </p>
+
+    <div class="button">
+
+    <a  href="C:\Users\SAINATH\Desktop\Cosntitution website\host Images\saideep.jpg" target="_blank" id="btn1">  
+       Presented by Saideep Mandal</a>  
+    </div>
+    </main>
+    </header>    
+
+</body>
+</html>
